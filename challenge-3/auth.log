@@ -1,0 +1,13 @@
+23:41:09 user=admin ip=192.168.1.5 event=logout result=success
+00:12:44 user=amina ip=192.168.1.12 event=login result=success
+00:13:02 user=amina ip=192.168.1.12 event=file_access result=success
+01:52:30 user=otieno ip=192.168.1.18 event=login result=failure
+01:52:41 user=otieno ip=192.168.1.18 event=login result=success
+02:03:15 user=wanjiru ip=192.168.1.21 event=login result=success
+02:13:58 user=admin ip=203.0.113.77 event=login result=failure
+02:14:07 user=admin ip=203.0.113.77 event=login result=success
+02:14:33 user=wanjiru ip=192.168.1.21 event=file_access result=success
+02:15:12 user=admin ip=203.0.113.77 event=privilege_change result=success
+02:16:40 user=amina ip=192.168.1.12 event=logout result=success
+02:19:05 user=admin ip=203.0.113.77 event=logout result=success
+02:25:47 user=otieno ip=192.168.1.18 event=logout result=success

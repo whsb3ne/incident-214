@@ -15,4 +15,4 @@ cd incident-evidence && ls
 Some evidence may not be immediately visible...
 
 ## Challenge 3
-Released by your facilitator at 8:20 PM: `challenge-3/auth.log`
+Investigate `challenge-3/auth.log` with your team. Task card: `challenge-3/README.txt`
