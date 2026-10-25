@@ -66,7 +66,7 @@ Official write-ups will be published here after the event. Until then, try it yo
 **Chapter 2** picks up where this one ends: was it really the admin, and what changed at 02:15:12?
 
 ## Credits
-Designed and run by **Benedict (@whsb3ne) and Yvonne** for GDG on Campus, Mount Kenya University.
+Designed and run by **Benedict (@whsb3ne) and Yvonne (@Moseti-suddo)** for GDG on Campus, Mount Kenya University.
 Story, challenge design and playtesting by us while the files and automation were built with Claude as a coding assistant.
 
 Created for **GDG on Campus, Mount Kenya University** as part of the *Incident 2:14* beginner security series. Savanna Systems is a fictional company, and every IP address in this repository comes from ranges reserved for documentation or private networks.
