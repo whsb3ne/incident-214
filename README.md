@@ -33,7 +33,7 @@ The three challenges form one investigation: decode a message, recover hidden ev
 
 1. Open each challenge folder and read its brief.
 2. Find the flag. It always looks like `MKU{...}`.
-3. Submit it through the event's **Google Form**. Never post flags in the Meet chat; everyone can see it.
+3. Submit it through the event's **Google Form** (https://forms.gle/xEmzsFFDsZ9KG6kR6). Never post flags in the Meet chat; everyone can see it.
 
 Challenge 2 needs a Linux terminal. The easiest option is [Google Cloud Shell](https://shell.cloud.google.com) (free, browser-based, needs a personal Gmail account and age 18+). macOS Terminal, WSL or any Linux machine also works.
 
