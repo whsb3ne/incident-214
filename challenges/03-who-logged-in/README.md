@@ -23,13 +23,13 @@ How many events happened during the minute 02:14?
 <details>
 <summary>Hint 2</summary>
 
-All the staff IP addresses have something in common. Which one doesn't fit?
+Only one of the events at 02:14 is a login. Which account and which IP address?
 </details>
 
 <details>
 <summary>Hint 3</summary>
 
-Follow that IP address through the whole log, from first appearance to last.
+Compare that IP address with the ones the other users have. Does it look like theirs? Then follow it through the whole log, from first appearance to last.
 </details>
 
 ### Think like an analyst
