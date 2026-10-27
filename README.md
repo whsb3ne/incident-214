@@ -59,7 +59,7 @@ Every push runs `scripts/validate.sh` in GitHub Actions. It checks that each cha
 
 ## Solutions
 
-Official write-ups will be published here after the event. Until then, try it yourself.
+Official write-ups `writeups/WRITEUP.md`
 
 ## What's next
 
