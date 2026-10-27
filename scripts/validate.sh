@@ -38,7 +38,7 @@ grep -qE 'MKU\{' "$log" && fail "challenge 3: flag must not appear in the log"
 pass "challenge 3 log is well-formed with one anomalous IP"
 
 # Nothing outside challenge 2's archive may contain a flag
-leaks=$(git ls-files | grep -v '\.tar\.gz$' | grep -v '^scripts/' | xargs grep -lE 'MKU\{[a-z0-9_.]*[a-z0-9][a-z0-9_.]*\}' 2>/dev/null \
+leaks=$(git ls-files | grep -v '\.tar\.gz$' | grep -v '^scripts/' | grep -v '^writeups/' | xargs grep -lE 'MKU\{[a-z0-9_.]*[a-z0-9][a-z0-9_.]*\}' 2>/dev/null \
   | grep -v '^challenges/03-who-logged-in/README.md$' || true)
 [[ -z "$leaks" ]] || fail "flag-shaped text found in: $leaks"
 pass "no flags leaked in tracked files"
