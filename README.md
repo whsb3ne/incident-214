@@ -14,14 +14,14 @@ A story-driven, beginner-friendly Capture The Flag built for **GDG on Campus, Mo
 
 | | |
 |---|---|
-| **Event** | Tuesday 27 October 2026, 7:30–9:30 PM EAT, online (Google Meet) |
+| **Event** | **Chapter 1 — Onboarding:** Tue 27 Oct 2026, 7:30–9:30 PM EAT · **Chapter 2 — The Breach:** Fri 6 Nov 2026, 7:30–9:00 PM EAT · online |
 | **Audience** | First-time CTF players; teams formed on the night |
 | **Flag format** | `MKU{...}` |
 | **Severity** | Medium · *Under investigation* |
 
 ## Challenges
 
-The CTF runs in two chapters. **Chapter 1** is the Onboarding investigation; **Chapter 2** moves onto the Savanna Systems staff portal to uncover how the login at 02:14 was possible.
+The CTF runs in two chapters. **Chapter 1** is the Onboarding investigation; **Chapter 2 — The Breach** moves onto the Savanna Systems staff portal to uncover how the login at 02:14 was possible.
 
 ### Chapter 1 — Onboarding
 
@@ -31,7 +31,7 @@ The CTF runs in two chapters. **Chapter 1** is the Onboarding investigation; **C
 | 2 | [The Missing Evidence](challenges/02-missing-evidence/) | Linux | ★☆☆ | Navigating a shell, hidden files, `ls -la`, `cat`, `grep` | Watch the demo |
 | 3 | [Who Logged In at 02:14?](challenges/03-who-logged-in/) | Log analysis / forensics | ★★☆ | Reading auth logs, timelines, spotting anomalous IPs, observation vs conclusion | Yes |
 
-### Chapter 2 — The Portal
+### Chapter 2 — The Breach
 
 > Set on a staging copy of the Savanna Systems staff portal. All four are web challenges and need a desktop browser.
 
@@ -79,12 +79,11 @@ incident-214/
 Every push runs `scripts/validate.sh` in GitHub Actions. It checks that each challenge is still solvable as designed (the Base64 decodes to a well-formed flag, the evidence file is really hidden from a plain `ls`, the log has exactly one external IP) without ever printing a flag.
 
 ## Solutions
-
 Official write-ups: [writeups/WRITEUP.md](writeups/WRITEUP.md). Chapter 2 (challenges 4–7) solutions are published after its event.
 
 ## What's next
 
-**Chapter 2 — The Portal** (challenges 4–7) is now in this repo: it answers how the attacker reached the portal and what changed at 02:15:12. Later chapters will go deeper into the investigation.
+**Chapter 2 — The Breach** (challenges 4–7) is now in this repo: it answers how the attacker reached the portal and what changed at 02:15:12. Later chapters will go deeper into the investigation.
 
 ## Credits
 Designed and run by **Benedict (@whsb3ne) and Yvonne (@Moseti-suddo)** for GDG on Campus, Mount Kenya University.
