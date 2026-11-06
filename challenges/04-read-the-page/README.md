@@ -2,11 +2,11 @@
 
 **Category:** Web · **Difficulty:** ★☆☆ · **Format:** live, everyone together
 
-IT preserved a staging copy of the Savanna Systems staff portal exactly as it was on the night of the incident. Before anyone can say how the attacker got in, someone has to look at the portal the way the attacker did.
+IT preserved a staging copy of the Savanna Systems staff portal from the night of the incident. At first glance, everything appears normal—but the public pages do not tell the whole story.
+
+Somewhere on the portal is an internal page that was never linked in the navigation and was never meant to be found by visitors. Track it down and recover the flag hidden inside.
 
 **Portal:** https://savanna-portal.yvonnemoseti71.workers.dev/
-
-Somewhere in the portal there is an internal page that was never meant to be public. Find it and submit the flag inside it.
 
 **Tools:** a desktop browser. Everything here works in Chrome, Edge, Firefox or Safari. Press `F12` to open DevTools.
 
@@ -15,19 +15,19 @@ Somewhere in the portal there is an internal page that was never meant to be pub
 <details>
 <summary>Hint 1</summary>
 
-A web page contains more than what is shown on screen. How can you read what the browser received?
+The page shown in your browser is only part of what the website provides. What other information can you inspect?
 </details>
 
 <details>
 <summary>Hint 2</summary>
 
-Which file tells search engines where they should not look?
+Websites sometimes publish instructions for search-engine crawlers. Which standard file tells them which paths not to visit?
 </details>
 
 <details>
 <summary>Hint 3</summary>
 
-Add `/robots.txt` to the portal address, then visit the path it lists.
+Check `/robots.txt` on the portal. What path does it mention, and what happens when you visit it directly?
 </details>
 
 ### Think like an analyst
