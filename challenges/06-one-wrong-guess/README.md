@@ -2,7 +2,9 @@
 
 **Category:** Web · **Difficulty:** ★★☆ · **Format:** team challenge
 
-The auth log shows the attacker failing to log in as `admin` at 02:13:58 and succeeding nine seconds later. Reproduce what they did on the staging portal, and find out how they could have known what to type.
+The auth log shows the attacker failing to log in as `admin` at 02:13:58 and succeeding nine seconds later. The staff directory also revealed an active contractor account whose contract had already ended.
+
+Review the contractor's handover note, investigate the location mentioned there, and reproduce what the attacker did on the staging portal. Find out how they could have known what to type.
 
 Submit the flag shown inside the admin panel.
 
